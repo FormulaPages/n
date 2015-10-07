@@ -1,0 +1,29 @@
+{
+  "name": "formula-n",
+  "version": "1.0.0",
+  "description": "N function",
+  "main": "N.js",
+  "scripts": {
+    "test": "mocha test",
+    "build": "babel N.es6 -m umd --out-file N.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/n.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/n/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/n#readme",
+  "devDependencies": {
+    "formula-errors": "^1.0.2",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "formula-iserror": "^1.0.4",
+    "formula-isnumber": "^1.0.0",
+    "formula-serial": "^1.0.1"
+  }
+}
