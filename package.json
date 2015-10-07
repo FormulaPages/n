@@ -1,6 +1,6 @@
 {
   "name": "formula-n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "N function",
   "main": "N.js",
   "scripts": {

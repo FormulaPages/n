@@ -1,6 +1,6 @@
-var ISNUMBER = require('formula-isnumber');
-var ISERROR = require('formula-iserror');
-var serial = require('formula-serial');
+import ISNUMBER from 'formula-isnumber';
+import ISERROR from 'formula-iserror';
+import SERIAL from 'formula-serial';
 
 export default function N(value) {
   if (ISNUMBER(value)) {
